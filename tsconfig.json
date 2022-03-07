@@ -23,9 +23,9 @@
     "plugins": [
       {
         "transform": "war3-transformer",
-        "mapDir": "D:/GitHub/Awaken_The_Aspects_TS/maps/Awaken_the_Aspects.w3x",
-        "entryFile": "D:/GitHub/Awaken_The_Aspects_TS/src/main.ts",
-        "outputDir": "D:/GitHub/Awaken_The_Aspects_TS/dist/Awaken_the_Aspects.w3x"
+        "mapDir": "D:/GitHub/DefendTheKeep/maps/Defend.w3x",
+        "entryFile": "D:/GitHub/DefendTheKeep/src/main.ts",
+        "outputDir": "D:/GitHub/DefendTheKeep/dist/Defend.w3x"
       }
     ],
     "types": [

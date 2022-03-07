@@ -15,13 +15,13 @@ export class DeathSpawn {
   }
 
   // Dependencies
-  pathing
+  // pathing
 
   id: { [id: string]: IDeathSpawn[] } = {}
 
   constructor(depend: IDeathSpawnDepend) {
     // Dependencies
-    this.pathing = depend.pathing
+    // this.pathing = depend.pathing
     const triggers = depend.triggers
     const unitTypes = depend.unitTypes
 
@@ -129,7 +129,7 @@ export class DeathSpawn {
           const u = new Unit({ owner: unit.owner, type: deathSpawn.unitId, coor: unit.coordinate, facing: unit.facing })
 
           // if ()
-          this.pathing.newOrders(u)
+          // this.pathing.newOrders(u)
 
           if (deathSpawn.effectPath != null) {
             new Effect(deathSpawn.effectPath, unit, deathSpawn.effectAttach as string).destroy()
