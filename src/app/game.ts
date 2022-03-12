@@ -69,7 +69,7 @@ export class Game {
     const abils = Abilities.getInstance({ abilityEngine: abilEngine, abilityTypes: abilTypes, abilityCast: abilCast })
     const heroAbils = HeroAbilities.getInstance({ abilityTypes: abilTypes, abilityCast: abilCast, abilityEngine: abilEngine })
 
-    // // // Globals with Upstream Dependencies
+    // Globals with Upstream Dependencies
     Logger.Information("Up Dependencies")
     // const ui = UI.getInstance({ unitTypes: unitTypes })
     Logger.Debug("DamageEngine")
