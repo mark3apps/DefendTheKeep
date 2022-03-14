@@ -955,36 +955,6 @@ STRING 353
 AT - Endurance
 }
 
-STRING 356
-{
-Defeat!
-}
-
-STRING 357
-{
-Defeat!
-}
-
-STRING 358
-{
-Defeat!
-}
-
-STRING 359
-{
-Defeat!
-}
-
-STRING 360
-{
-Defeat!
-}
-
-STRING 361
-{
-Defeat!
-}
-
 STRING 379
 // Abilities: A004 (Reincarnation), Ubertip (Tooltip - Normal - Extended)
 {

@@ -551,13 +551,13 @@ export class UI {
       }
     })
 
-    const trig = new Trigger()
-    trig.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ISSUED_ORDER)
-    trig.addAction(() => {
-      if (Unit.fromEvent().typeId === unitTypes.UIDummy.id) {
-        print("Order: " + GetIssuedOrderId())
-      }
-    })
+    // const trig = new Trigger()
+    // trig.registerAnyUnitEvent(EVENT_PLAYER_UNIT_ISSUED_ORDER)
+    // trig.addAction(() => {
+    //   if (Unit.fromEvent().typeId === unitTypes.UIDummy.id) {
+    //     print("Order: " + GetIssuedOrderId())
+    //   }
+    // })
 
     const g = new Group()
 

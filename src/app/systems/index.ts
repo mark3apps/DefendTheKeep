@@ -1,14 +1,9 @@
-export * from './arcTag/ArcTagEngine'
-export * from './arcTag/arctag'
-export * from './army/army'
-export * from './aspect/aspect'
-export * from './heroAttribute/heroAttribute'
-export * from './banner/banner'
-export * from './base/base'
-export * from './cinematics/cinematics'
-export * from './faction/faction'
-export * from './loc/loc'
-export * from './spawn/pathing'
-export * from './preload'
-export * from './spawn/spawn'
-export * from './unitData'
+/** @format */
+
+export * from "./arcTag/ArcTagEngine"
+export * from "./arcTag/arctag"
+export * from "./heroAttribute/heroAttribute"
+export * from "./banner/banner"
+export * from "./cinematics/cinematics"
+export * from "./preload"
+export * from "./unitData"

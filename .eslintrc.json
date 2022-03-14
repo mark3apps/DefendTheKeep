@@ -18,6 +18,7 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "prefer-regex-literals": "off",
+    "prefer-const": "warn",
     "no-new": "off",
     "no-undef": "off",
     "quotes": [
